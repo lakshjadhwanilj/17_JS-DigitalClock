@@ -1,0 +1,56 @@
+body{
+    /*background-color: lightblue;*/
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.container{
+    height: 50%;
+    width: 100%;
+}
+
+.background{
+    
+    height: 100%;
+}
+
+h1{
+    position: absolute;
+    margin-top: 15%;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 15%;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 8vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+#my-clock{
+    position: absolute;
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 9vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width: 700px){
+    h1{
+        width: 100%;
+        margin-top: 15%;
+        text-align: center;
+    }
+    #my-clock{
+        width: 100%;
+        margin-top: 25%;
+        text-align: center;
+    }
+    .container, .background{
+        width: 100%;
+        height: auto;
+    }
+}
