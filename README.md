@@ -1,5 +1,6 @@
 # JS-DigitalClock
 A Digital Clock using HTML5, CSS3 And JS.
+![picture alt](https://raw.githubusercontent.com/lakshjadhwanilj/JS-DigitalClock/master/Screenshot.png)
 This is a simple clock functionality achieved using Javascript. The logic is very simple with the minimum lines of code possible.
 # Steps to execute this clock:
 
